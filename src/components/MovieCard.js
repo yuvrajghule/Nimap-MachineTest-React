@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { IMAGE_BASE_URL } from '../api/api';
 
 const MovieCard = ({ movie }) => {
-    // Format the vote_average to 2 decimal places
     const formattedRating = movie.vote_average.toFixed(1);
 
     return (
