@@ -15,7 +15,7 @@ const TopRatedPage = () => {
                     params: { page: currentPage }
                 });
                 setMovies(response.data.results);
-                setTotalPages(response.data.total_pages); // Assuming your API provides this
+                setTotalPages(response.data.total_pages);
             } catch (error) {
                 console.error(error);
             }
